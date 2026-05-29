@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body ng-app="RestaurantApp" ng-controller="RestaurantController as $ctrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="#" ng-click="$ctrl.loadHome()" style="text-decoration: none;">
+                    <div class="restaurant-header text-center">
+                        <h1>David Chu's China Bistro</h1>
+                        <p class="lead">Authentic Chinese Cuisine</p>
+                    </div>
+                </a>
+                <hr>
+            </div>
+        </div>
+        
+        <div id="home-snippet"></div>
+        <div id="main-content"></div>
+    </div>
+</body>
+</html>

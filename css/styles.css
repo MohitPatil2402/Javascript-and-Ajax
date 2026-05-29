@@ -1,0 +1,157 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.restaurant-header {
+    background-color: #f6b319;
+    color: #557c3f;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.restaurant-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.restaurant-header p {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+}
+
+.category-tile {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.category-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.category-tile a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+.category-tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.category-tile span {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #61122f;
+    margin-top: 10px;
+}
+
+.menu-item-tile {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-item-photo {
+    position: relative;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    background-color: #557c3f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    top: -10px;
+    left: -10px;
+}
+
+.menu-item-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.menu-item-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.menu-item-price span {
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.menu-item-title {
+    margin: 0 0 10px 0;
+    color: #61122f;
+    font-size: 1.3em;
+}
+
+.menu-item-details {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #666;
+}
+
+.loading-spinner {
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+
+.loading-spinner i {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border-color: #ebccd1;
+}
+
+@media (max-width: 767px) {
+    .restaurant-header h1 {
+        font-size: 1.2em;
+    }
+    
+    .restaurant-header p {
+        font-size: 0.9em;
+    }
+    
+    .menu-item-tile {
+        margin-bottom: 15px;
+    }
+    
+    .menu-item-photo img {
+        width: 100%;
+    }
+    
+    .menu-item-title {
+        font-size: 1.1em;
+    }
+}
